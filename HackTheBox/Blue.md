@@ -40,7 +40,7 @@ Vemos que es un<span style="color:#ff2dc0"> Windows 7</span>, <span style="color
 <span style="color:#07b4f2">Usamos</span> el <span style="color:#ecacb6">42315.py</span>, es el que <span style="color:#07b4f2">está</span> en <span style="color:#ff2dc0">searchsploit</span>, <span style="color:#379075">y lo metemos en el directorio MS17-010</span>.
 <span style="color:#07b4f2">Modificamos</span> el <span style="color:#ecacb6">42315.py</span>
 <span style="color:#ff2dc0">Comentamos</span> y <span style="color:#ff2dc0">descomentamos</span> lo <span style="color:#07b4f2">importante</span>.
-!(/images/20241208105113.png)
+!(/images/Pasted image 20241208105113.png)
 
 Creamos un <span style="color:#ff2dc0">recurso compartido a nivel de red</span>, <span style="color:#07b4f2">ofreciendo</span> el <span style="color:#ecacb6">nc.exe</span>
 Nos ponemos en <span style="color:#ff2dc0">escucha</span> por el <span style="color:#ff669c">puerto</span> especificado.
