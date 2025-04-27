@@ -40,7 +40,7 @@ Vemos que es un<span style="color:#ff2dc0"> Windows 7</span>, <span style="color
 <span style="color:#07b4f2">Usamos</span> el <span style="color:#ecacb6">42315.py</span>, es el que <span style="color:#07b4f2">está</span> en <span style="color:#ff2dc0">searchsploit</span>, <span style="color:#379075">y lo metemos en el directorio MS17-010</span>.
 <span style="color:#07b4f2">Modificamos</span> el <span style="color:#ecacb6">42315.py</span>
 <span style="color:#ff2dc0">Comentamos</span> y <span style="color:#ff2dc0">descomentamos</span> lo <span style="color:#07b4f2">importante</span>.
-![Pruebas](../images/Pasted image 20241208105113.png)
+![Pruebas](../images/20241208105113.png)
 
 Creamos un <span style="color:#ff2dc0">recurso compartido a nivel de red</span>, <span style="color:#07b4f2">ofreciendo</span> el <span style="color:#ecacb6">nc.exe</span>
 Nos ponemos en <span style="color:#ff2dc0">escucha</span> por el <span style="color:#ff669c">puerto</span> especificado.
@@ -69,7 +69,7 @@ En <span style="color:#ff2dc0">máquina víctima</span>.
 
 En <span style="color:#07b4f2">mi</span> <span style="color:#ff2dc0">máquina</span>.
 <span style="color:#88c425">impacket-secretsdump -sam sam.backup -system system.backup LOCAL</span>
-![Pruebas](../images/Pasted image 20241208125302.png)
+![Pruebas](../images/20241208125302.png)
 
 <span style="color:#88c425">crackmapexec smb 10.10.10.40 -u 'administrator' -H 'cdf51b162460b7d5bc898f493751a0cc' --lsa</span> :    <span style="color:#07b4f2">tratar</span> de <span style="color:#07b4f2">ver</span> <span style="color:#ff2dc0">credenciales</span> en <span style="color:#ff2dc0">texto claro</span>.
 
@@ -88,7 +88,7 @@ Clonamos https://github.com/Genetic-Malware/Ebowla
 
 <span style="color:#ecacb6">[[ENV_VAR]]</span> :    hay que <span style="color:#07b4f2">ponerlas bien</span>, porque <span style="color:#07b4f2">se toman</span> las <span style="color:#ff2dc0">variables de entorno</span> de la <span style="color:#07b4f2">propia</span> <span style="color:#ff2dc0">máquina</span> para lograr <span style="color:#07b4f2">subir</span> el <span style="color:#ff2dc0">archivo</span> deseado.
 Con <span style="color:#07b4f2">estas</span> son <span style="color:#07b4f2">suficientes</span>.
-![Pruebas](../images/Pasted image 20241208132242.png)
+![Pruebas](../images/20241208132242.png)
 
 Necesita <span style="color:#ecacb6">python2</span>, hago
 <span style="color:#88c425">cp -r /home/joelkami/Documentos/HTB/Maquinas/Blue/content/Ebowla .</span> :    <span style="color:#07b4f2">lo llevo a</span> mi <span style="color:#ff2dc0">entorno virtual</span>.
